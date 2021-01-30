@@ -1,0 +1,8 @@
+/* 多餘的去除掉 */
+.stats-cards .mat-card {
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+}

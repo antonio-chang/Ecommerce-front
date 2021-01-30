@@ -1,0 +1,48 @@
+<h1>Purchase History</h1>
+<hr>
+<div class="mat-elevation-z8"> 
+    <mat-form-field class="search-form-field"  floatLabel="never" style="width:100% !important" >
+        <input matInput [(ngModel)]="searchKey"  autocomplete="off" (keyup)="applyFliter()">
+        <button mat-button matSuffix mat-icon-button arial-label = "Clear" *ngIf="searchKey" (click) = "onSearchClear()">
+            <mat-icon>close</mat-icon>
+        </button>
+    </mat-form-field>
+</div>
+
+<hr>
+
+<div class="mat-elevation-z8">
+    <mat-table [dataSource]="dataSource" matSort>
+
+        <ng-container matColumnDef="id">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> EId </mat-header-cell>
+            <!-- <mat-cell *matCellDef="let employee"> {{employee.id}} </mat-cell> -->
+        </ng-container>
+
+        <ng-container matColumnDef="Name">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> Name </mat-header-cell>
+            <!-- <mat-cell *matCellDef="let employee"> {{employee.lastname + employee.firstname}} </mat-cell> -->
+        </ng-container>
+
+        <ng-container matColumnDef="email">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> Email </mat-header-cell>
+            <!-- <mat-cell *matCellDef="let employee"> {{employee.email}} </mat-cell> -->
+        </ng-container> 
+
+        <ng-container matColumnDef="address">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> Address </mat-header-cell>
+            <!-- <mat-cell *matCellDef="let employee"> {{employee.address}} </mat-cell> -->
+        </ng-container>
+
+        <ng-container matColumnDef="phone">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> Phone </mat-header-cell>
+            <!-- <mat-cell *matCellDef="let employee"> {{employee.phone}} </mat-cell> -->
+        </ng-container>
+
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+
+    </mat-table>
+    <mat-paginator [pageSizeOptions]="[5 , 10, 25, 100]" [pageSize]="10"></mat-paginator>
+</div>
