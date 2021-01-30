@@ -1,6 +1,9 @@
-# Dashboard
+#  E-commerce System &Customer Support Documentation(Chunchu Liu, Shuo-Yuan Chang, Yuke Liu, Ruhao Zhuang )
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+
+•	Created a web application that allows admin to monitor customer’s purchase histories and enables customers to shop online
+•	Actualized multiple modules including user authentication, shopping cart, order history, and live chat module
 
 
 ## Development server
@@ -21,23 +24,28 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Specific Modules
 
-* Authentication
-* Shopping cart
-* Sidebar
-* Product list
-* Order history
 
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md
 
-Install JSON Server for shopping-cart component
-npm install -g json-server
-cd final\ project/front-end2/dashboardsrc/app/component/shopping-cart
-json-server db.json
+• Install JSON Server for shopping-cart component
+• npm install -g json-server
+• cd final\ project/front-end2/dashboardsrc/app/component/shopping-cart
+• json-server db.json
 
-Run backend app.js
-cd final\ project/server
-node app.js
+• Run backend app.js
+• cd final\ project/server
+• node app.js
 
+
+
+
+
+<!-- git init -->
+<!-- git remote add orgin https://github.com/antonio-chang/web-front.git -->
+<!-- git add --all -->
+<!-- git commit -m with_new_read_me -->
+<!-- git remote -v -->
+<!-- git push -u orgin master -->
