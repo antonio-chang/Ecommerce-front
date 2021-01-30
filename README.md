@@ -2,9 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
 
-•	Created a web application that allows admin to monitor customer’s purchase histories and enables customers to shop online
-•	Actualized multiple modules including user authentication, shopping cart, order history, and live chat module
-
+•	Created a web application that allows admin to monitor customer’s purchase histories and enables customers to shop online <br />
+•	Actualized multiple modules including user authentication, shopping cart, order history, and live chat module <br />
 
 ## Development server
 
@@ -30,14 +29,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md
 
-• Install JSON Server for shopping-cart component
-• npm install -g json-server
-• cd final\ project/front-end2/dashboardsrc/app/component/shopping-cart
-• json-server db.json
+• Install JSON Server for shopping-cart component <br />
+• npm install -g json-server <br />
+• cd final\ project/front-end2/dashboardsrc/app/component/shopping-cart <br />
+• json-server db.json <br />
 
-• Run backend app.js
-• cd final\ project/server
-• node app.js
+• Run backend app.js <br />
+• cd final\ project/server <br />
+• node app.js <br />
 
 
 
